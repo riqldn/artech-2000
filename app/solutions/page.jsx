@@ -12,8 +12,8 @@ export default function Solutions() {
     return (
         <>
             <Navbar />
-            <section className='relative min-h-screen w-full '>
-                <div className='flex w-11/12 min-h-screen mx-auto pb-8'>
+            <section className='relative min-h-[90vh] md:min-h-screen w-full '>
+                <div className='flex w-11/12 min-h-[90vh] md:min-h-screen mx-auto pb-8'>
                 <div className="flex flex-col self-end">
                         <h2 className='text-white text-md'>
                             <SlidingText>

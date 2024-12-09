@@ -54,23 +54,23 @@ export default function Contact() {
 
                         <div className='py-2 px-4 items-center contact-row  flex flex-row justify-between border-b-2 border-solid border-header'>
                             <label htmlFor='name'>Name</label>
-                            <input className='outline-0 pl-4 text-sm bg-transparent border-b w-3/4 md:w-1/2 border-border p-1 mb-2' aria-required required placeholder='Enter Name' type='text' id='name'></input>
+                            <input className='outline-0 pl-4 md:text-sm bg-transparent border-b w-3/4 md:w-1/2 border-border p-1 mb-2' aria-required required placeholder='Enter Name' type='text' id='name'></input>
                         </div>
                         <div className='py-2 px-4 contact-row items-center flex flex-row justify-between border-b-2 border-header'>
                             <label htmlFor="email" >Email</label>
-                            <input className='outline-0 pl-4 text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' aria-required required placeholder='Enter Email' type='email' id='email'></input>
+                            <input className='outline-0 pl-4 md:text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' aria-required required placeholder='Enter Email' type='email' id='email'></input>
                         </div>
                         <div className='py-2 px-4 contact-row items-center flex flex-row justify-between border-b-2 border-header'>
                             <label htmlFor='company'>Company</label>
-                            <input className='outline-0 pl-4 text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' placeholder='Enter Company Name (optional)' type='text' id='company'></input>
+                            <input className='outline-0 pl-4 md:text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' placeholder='Enter Company Name (optional)' type='text' id='company'></input>
                         </div>
                         <div className='py-2 px-4 contact-row items-center flex flex-row justify-between border-b-2 border-header'>
                             <label htmlFor='phone' >Phone</label>
-                            <input className='outline-0 pl-4 text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' placeholder='Enter Phone Number (optional)' type='phone' id='phone'></input>
+                            <input className='outline-0 pl-4 md:text-sm bg-transparent w-3/4 md:w-1/2 border-b border-border p-1 mb-2' placeholder='Enter Phone Number (optional)' type='phone' id='phone'></input>
                         </div>
                         <div className='py-2 px-4 contact-row  items-center flex flex-row justify-between border-b-2 border-header'>
                             <label htmlFor='message' className='self-start'>Message</label>
-                            <textarea type="text" required aria-required className='outline-0 text-sm min-h-[150px] pl-4 w-3/4 md:w-1/2' placeholder="Type message here" id='message'>
+                            <textarea type="text" required aria-required className='outline-0 md:text-sm min-h-[150px] pl-4 w-3/4 md:w-1/2' placeholder="Type message here" id='message'>
 
                             </textarea>
                         </div>
