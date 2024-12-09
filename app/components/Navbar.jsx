@@ -61,7 +61,7 @@ export default function Navbar() {
             networkMobile.classList.add("activeDdl")
         else if (window.location.pathname === "/solutions/power-platform")
             powerMobile.classList.add("activeDdl")
-    },[Router.name])
+    })
     const [isOpen, setIsOpen] = useState(false)
     const [isSolutionsOpen, setSolutions] = useState(false)
     return (
