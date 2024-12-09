@@ -51,9 +51,9 @@ export default function Home() {
 
 
       </motion.section>
-      <section className="relative min-h-screen w-full flex items-end">
+      <section className="relative min-h-[80vh] md:min-h-screen w-full flex items-end">
         <Image alt="hero image" as="image" className="-z-50 object-cover object-top" priority={true} aria-description="decorative" src={desktop} fill sizes="100vw" quality={90} placeholder="blur" />
-        <div className="md:pb-8 mx-auto w-11/12 min-h-max flex flex-col gap-4 lg:gap-0 lg:grid lg:grid-cols-12 justify-end">
+        <div className="pb-8 md:pb-8 mx-auto w-11/12 min-h-max flex flex-col gap-4 lg:gap-0 lg:grid lg:grid-cols-12 justify-end">
           <h1 className="text-white text-xl leading-tightest home-header tracking-tightest md:text-3xl lg:text-4xl col-start-1 md:col-end-8 lg:col-end-8">
             <SlidingText>Innovative IT Solutions for a Seamless Tomorrow</SlidingText>
           </h1>
