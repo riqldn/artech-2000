@@ -49,11 +49,12 @@ h5 {
 
 .solutionsMobile::after {
   content: "+";
-  margin-left: 70%
+  margin-left: 60%
 }
 
 .solutionsMobile.activeM::after {
-  content: "-"
+  content: "-";
+  margin-left: 60%
 }
 
 .active {
