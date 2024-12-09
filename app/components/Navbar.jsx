@@ -137,7 +137,7 @@ export default function Navbar() {
                     <Link className="border-b p-4 block networkMobile" href="/solutions/network-infrastructure">Network Infrastructure</Link>
                     <Link className=" p-4 block  powerMobile" href="/solutions/power-platform">Power Platform</Link>
                 </div>
-                <Link className="p-4 border-b" href="contact">Contact</Link>
+                <Link className="p-4 border-b" href="/contact">Contact</Link>
             </div>
 
         </nav>

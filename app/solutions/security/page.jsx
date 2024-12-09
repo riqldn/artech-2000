@@ -41,7 +41,7 @@ export default function Security() {
                     <div className="min-h-max w-full auto-rows-auto gap-16 flex flex-col md:grid grid-cols-12">
 
                         <div className="flex flex-col gap-4 col-start-1 md:col-end-10 lg:col-end-8 pt-8">
-                            <p className="text-md md:text-xl tracking-tight leading-tight">It&apos;s better to prevent issues than to address them after they arise, which is why implementing robust security measures to safeguard your business against vulnerabilities is essential.</p>
+                            <p className="text-md md:text-xl tracking-tight leading-reg md:leading-reg">It&apos;s better to prevent issues than to address them after they arise, which is why implementing robust security measures to safeguard your business against vulnerabilities is essential.</p>
                             <Cta href="/contact">Enquire Now</Cta>
                         </div>
                         <div className="flex flex-col gap-8 row-start-2 col-start-5 lg:col-start-7 col-end-13">
