@@ -96,10 +96,11 @@ h5 {
   animation: ticker 10s linear reverse infinite;
 }
 
-/* 
-*{
+
+/* *{
   border: solid greenyellow 2px;
 } */
+
 @media screen and (min-width:768px) and (orientation: portrait) {
 
   .home-header {
@@ -163,7 +164,12 @@ h5 {
 .overlay {
   background: linear-gradient(180deg, transparent 50%, black 90%);
 }
-
+.overlay-power {
+  background: linear-gradient(180deg, transparent 50%, black 75%);
+}
+.overlay-cloud{
+  background: linear-gradient(180deg, transparent 50%, black 75%);
+}
 /* .home-solutions span, h4, svg, a, path,p{
   transition: all linear 0.5s;
 } */
@@ -188,5 +194,8 @@ h5 {
   font-size: 1.5rem;
 }
 .accordion-content{
-  transition: ease-in-out 1s all;
+  transition: ease-in-out 0.2s all;
+}
+.accordion-content > p{
+  @apply text-body;
 }

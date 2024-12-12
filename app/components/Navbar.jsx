@@ -118,7 +118,7 @@ export default function Navbar() {
                         </Link>
                     </motion.div>
                 </div>
-                <div className="md:hidden">
+                <div className="md:hidden flex">
                     <button onClick={() => setIsOpen(!isOpen)}>
                         <span className={!isOpen ? "inline-block" : "hidden"}>Menu</span>
                         <span className={isOpen ? "inline-block" : "hidden"}>Close</span>
