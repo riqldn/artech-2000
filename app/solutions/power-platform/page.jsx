@@ -31,7 +31,7 @@ export default function Power() {
 
                 </div>
 
-                <Image alt='hero image of a hand interacting with a holographic menu' priority={true} className='-z-10 object-cover object-[73%] md:object-[0%,30%]' src={HeroImage} fill quality={90} />
+                <Image alt='hero image of a hand interacting with a holographic menu' priority className='-z-10 object-cover object-[73%] md:object-[0%,30%]' src={HeroImage} fill quality={90} />
                 <div className='top-0 left-0 opacity-[0.5] overlay-power bg-black absolute w-full min-h-[90vh] md:min-h-screen'></div>
             </section>
 
@@ -41,7 +41,7 @@ export default function Power() {
                     <div className="min-h-max w-full auto-rows-auto gap-y-8 flex flex-col md:grid grid-cols-12">
 
                         <div className="flex flex-col gap-6 col-start-1 md:col-end-10 lg:col-end-7 pt-8 md:pt-16">
-                            <p className="text-md md:text-xl mb-2 tracking-reg text-header leading-reg md:leading-reg">Microsoft Power Platform is a toolset that enables businesses to analyze data, automate processes, build apps,
+                            <p className="text-md md:text-xl mb-2 tracking-reg text-header leading-reg md:leading-tight">Microsoft Power Platform is a toolset that enables businesses to analyze data, automate processes, build apps,
                                 and create virtual agents with little to no coding.</p>
                             <p className="max-w-[55ch] mb-2 text-body leading-looser">Our Power Platform solutions are tailored to automate processes, analyze and manage data, and seamlessly integrate with other applications, enabling you to create comprehensive end-to-end business solutions.</p>
                             <Cta href="/contact">Enquire Now</Cta>

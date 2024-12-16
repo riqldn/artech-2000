@@ -147,7 +147,24 @@ h5 {
    .cta-wrapper, .cta-section{
     min-height: 50vh !important;
    }
-   
+   .cloud-flex{
+    flex-direction: column !important;
+    gap: 2.5rem !important;
+   }
+   .cloud-text{
+    width: 100% !important;
+    order: 2 !important;
+   }
+   .cloud-text > h3 {
+    @apply text-3xl !important;
+   }
+   .cloud-text > p {
+    @apply text-lg leading-looser !important;
+   }
+   .cloud-image{
+    width: 100% !important;
+    order: 1 !important;
+   }
 }
 
 @keyframes ticker {
@@ -199,3 +216,8 @@ h5 {
 .accordion-content > p{
   @apply text-body;
 }
+.act{
+  position: relative;
+  opacity: 1;
+  transition: linear 0.5s all;
+  } 

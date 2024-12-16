@@ -46,7 +46,7 @@ export default function Home() {
 
     <div>
       <Navbar/>
-      <motion.section initial={{ clipPath: "inset(0 0 0 0)" }} animate={{ clipPath: "inset(0 0 100% 0)" }} transition={{ ease: "easeInOut" }} className="loading-screen fixed min-h-screen pb-1 w-full bg-white z-50 flex items-center justify-center">
+      <motion.section initial={{ clipPath: "inset(0 0 0 0)" }} animate={{ clipPath: "inset(0 0 100% 0)" }} transition={{ duration:1 , ease: "easeInOut" }} className="loading-screen fixed min-h-screen pb-1 w-full bg-white z-50 flex items-center justify-center">
 
 
 
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="w-11/12 min-h-screen auto-rows-max pb-10 pt-20 flex flex-col  mx-auto md:grid grid-cols-12">
           <div className="md:pl-4  h-max flex flex-col gap-4 col-start-1 md:col-end-9 lg:col-end-7 md:mb-16 lg:mb-0">
             <h2 className="text-2xl md:text-3xl mb-2 leading-tightest tracking-tighter ">Solutions we offer to provide value to your business</h2>
-            <p className="max-w-[35ch] md:max-w-[35ch] leading-loose lg:max-w-[45ch]">At Artech 2000 we understand that your business needs are unique, which is why we ensure  that all services are tailored to your specific IT needs.</p>
+            <p className="max-w-[35ch] md:max-w-[35ch] leading-looser lg:max-w-[45ch]">At Artech 2000 we understand that your business needs are unique, which is why we ensure  that all services are tailored to your specific IT needs.</p>
             <Button href="/solutions">View Our Solutions</Button>
           </div>
 

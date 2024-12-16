@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer md:min-h-[40vh] w-full">
     <div className="w-11/12 h-full gap-4 flex flex-col mx-auto md:grid grid-cols-12 p-8">
       <div className="hidden border-b mb-4 text-sm font-semibold gap-4 pb-4 md:grid grid-cols-12 w-full min-h-max col-start-1 col-end-13">
-        <h4 className="col-start-6 col-end-8 font-semibold">Menu</h4>
+        <h4 className="lg:col-start-6 md:col-start-5 col-end-8 font-semibold">Menu</h4>
         <h4 className="col-start-9  col-end-11 font-semibold">Get In Touch</h4>
       </div>
       <div className="flex flex-col col-start-1 mb-8 md:mb-0 col-end-4 gap-8">
@@ -30,7 +30,7 @@ export default function Footer() {
         </p>
       </div>
       <h4 className="md:hidden font-semibold mb-4">Menu</h4>
-      <div className="flex flex-row gap-4 md:flex-col mb-4 md:mb-0 justify-between md:gap-1 col-start-6 col-end-8">
+      <div className="flex flex-row gap-4 md:flex-col mb-4 md:mb-0 justify-between md:gap-1 md:col-start-5 lg:col-start-6 col-end-8">
 
         <div className="flex flex-col gap-2 md:mb-0 justify-between md:gap-1">
 

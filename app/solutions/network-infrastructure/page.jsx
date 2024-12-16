@@ -28,7 +28,7 @@ export default function Network() {
                         </h1>
                     </div>
                 </div>
-                <Image alt='hero image of a hand interacting with a holographic menu' className='-z-10 object-cover object-[73%] md:object-top ' sizes='100vw' priority={true} src={Hero} fill quality={90} />
+                <Image alt='hero image of a hand interacting with a holographic menu' className='-z-10 object-cover object-[73%] md:object-top ' sizes='100vw' priority src={Hero} fill quality={90} />
                 <div className='top-0 left-0 opacity-[0.2] overlay bg-black absolute w-full min-h-[90vh] md:min-h-screen'></div>
             </section>
 
