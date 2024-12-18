@@ -67,7 +67,7 @@ export default function Navbar() {
     return (
         <nav className="fixed z-50 top-0 left-0 z-50 nav relative font-medium font-geist w-full flex justify-center items center min-h-content py-4">
             <div className="w-11/12 flex justify-between h-full">
-                <Link href="/">
+                <Link aria-label="Home button" href="/">
                     <div className="logo">
                         <svg width="108" height="58" className="max-w-[75px] h-auto" viewBox="0 0 108 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.9901 38.29C17.7601 38.17 26.8301 45.21 30.2101 46.51C45.1701 52.28 66.3301 51.31 80.1301 42.92C84.3801 40.34 85.9801 34.31 90.6401 42.46C71.5401 62.91 31.6401 62.85 12.3801 42.52C12.1801 41.05 16.3001 38.4 17.0001 38.29H16.9901Z" fill="black" />

@@ -22,7 +22,7 @@ export default function Marquee() {
         <section className="marquee-section relative min-h-[40vh] w-full">
             <div className="w-11/12 mx-auto flex align-center flex-row justify-center items-center  gap-4 h-[40vh]">
                 <div>
-                    <h4 className="mb-8 font-semibold tracking-tight text-md">Our Partners</h4>
+                    <h2 className="mb-8 font-semibold tracking-tight text-md">Our Partners</h2>
                     <div className="marquee-outer max-w-[75vw] h-max  overflow-hidden  justify-center items-center">
                         <div className="marquee w-max shrink-0 grow-0 flex align-center flex-nowrap flex-row justify-center items-center z-50  h-full">
                             <Image src={Cisco}  className="w-[120px]" loading="eager" sizes="10vw" alt="cisco logo" aria-description="decoration" />
