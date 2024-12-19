@@ -47,7 +47,7 @@ export default function Footer() {
 
       </div>
       <div className="flex flex-col gap-4 col-start-9 col-end-13">
-        <h6 className="md:hidden font-semibold mb-4 md:mb-0">Contact Us</h6>
+        <span className="md:hidden font-semibold mb-4 md:mb-0 block">Contact Us</span>
         <span className="inline-block leading-reg">11 Suffolk House, College Road, Croydon CRO 1PE, London</span>
         <Link className="hover:text-primary" href="mailto:itenquiries@artech-2000.com">itenquiries@artech-2000.com</Link>
         <Link className="hover:text-primary" href="tel:02074987774">+44(0)2074987774</Link>
