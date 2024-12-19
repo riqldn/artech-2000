@@ -15,17 +15,17 @@ export default function Solutions() {
             <section className='relative min-h-[90vh] md:min-h-screen w-full '>
                 <div className='flex w-11/12 min-h-[90vh] md:min-h-screen mx-auto pb-8'>
                 <div className="flex flex-col self-end">
-                        <h2 className='text-white text-md'>
+                        <span className='text-white text-md block'>
                             <SlidingText>
                                 Solutions
                             </SlidingText>
-                        </h2>
+                        </span>
                         <h1 className='z-40 tracking-xtra leading-xtra text-white text-2xl md:text-4xl md:max-w-[21ch]'>
                             <SlidingText>Our range of solutions providing value to your business</SlidingText>
                         </h1>
                     </div>
                 </div>
-                <Image alt='hero image of a hand interacting with a holographic menu' className='-z-10 object-cover object-[73%] md:object-top ' priority={true} src={Hero} fill quality={90} />
+                <Image alt='hero image of a hand interacting with a holographic menu' placeholder="blur" className='-z-10 object-cover object-[73%] md:object-top ' priority={true} src={Hero} fill quality={90} />
                 <div className='top-0 left-0 opacity-[0.2] overlay bg-black absolute w-full min-h-[90vh] md:min-h-screen'></div>
             </section>
 
@@ -48,7 +48,7 @@ export default function Solutions() {
                                 <path d="M43.6857 0L82.0977 15.9822C83.6633 16.5771 84.6575 17.7591 84.8975 19.4317C84.8245 33.5534 86.0117 46.8845 81.3853 60.453C75.851 76.683 61.5284 93.2392 45.2409 99.3111C42.7777 100.23 42.6394 100.23 40.1736 99.3111C23.8887 93.2392 9.56613 76.683 4.02912 60.453C-0.618094 46.8244 0.597857 33.4203 0.516968 19.2386C0.746589 17.6756 1.88165 16.5484 3.31678 15.9822L41.734 0H43.6884H43.6857ZM42.4672 8.23505L8.52501 22.3594L8.32409 22.9412C8.49891 32.6897 7.64305 42.386 9.79836 51.9596C13.7306 69.4447 26.2345 84.8111 42.7751 91.7519C59.2817 84.678 71.7882 69.3377 75.6605 51.7978C77.7819 42.1877 77.0069 32.2278 76.9939 22.4585L42.4672 8.23505Z" fill="#111111" />
                                 <path d="M57.1291 36.3585C61.1449 35.6748 63.4332 40.142 60.7013 43.054C54.0162 48.8311 47.9886 56.9435 41.267 62.4883C39.5813 63.8791 37.8801 64.1479 35.9909 62.8745C32.7762 58.9579 27.4532 55.2761 24.4629 51.3569C21.4465 47.4064 26.5086 42.6939 30.2321 45.9791L38.5037 54.0732L55.42 37.1883C55.8766 36.8203 56.5577 36.4576 57.1291 36.3611V36.3585Z" fill="#111111" />
                             </svg>
-                            <h4 className='font-semibold'>Security</h4>
+                            <h3 className='font-semibold'>Security</h3>
                             <p className='leading-looser max-w-[45ch]'>We operate IT management services that keep up with the constantly changing landscape of ICT and cyber threats so you can focus on running your business.</p>
                             <Link className='hover:font-semibold text-primary flex items-center gap-1' href="/solutions/security">
                                 Explore
@@ -64,7 +64,7 @@ export default function Solutions() {
                                 <path d="M75.1799 0.0731954C79.3088 0.566147 83.342 4.26179 84.552 8.16357C87.5366 17.8045 77.9196 26.1817 68.7566 22.3158L56.2775 40.3189C57.7235 41.9501 58.9932 44.0863 59.5579 46.2075C59.7461 46.9185 59.9821 49.6432 60.2988 49.8075L69.2257 51.5702C70.1578 50.8382 70.6089 49.688 71.5769 48.8365C76.4078 44.5792 84.2293 46.4345 86.4551 52.4844C89.7623 61.486 79.1743 68.922 71.7711 62.8692C69.7366 61.2051 68.9 58.83 68.3623 56.3294L59.5011 54.6683C58.5033 57.4228 56.872 59.8189 54.724 61.7997L66.7908 79.5549C67.1822 79.7968 68.9329 79.1276 69.623 79.0649C81.2955 77.9894 85.8247 93.1663 76.0941 98.5977C67.702 103.279 58.2762 95.4876 60.8814 86.3217C61.3235 84.7712 62.3602 83.7285 62.8532 82.3273L50.4696 64.2734C47.7898 65.1786 45.1518 65.4594 42.3494 64.9665C41.713 64.853 39.1676 63.9298 38.9137 64.0792L28.8037 78.4734C29.1532 79.5937 30.0824 80.6842 30.5245 81.8523C36.0635 96.5034 14.8487 105.619 7.9683 91.9115C2.47413 80.968 14.3647 69.7675 25.0244 75.4678L34.9432 61.244C30.3572 56.906 28.9441 50.0495 31.4238 44.2088L31.2834 43.8503L14.8577 31.1739C14.3557 31.0066 13.9763 31.5653 13.4983 31.7595C4.29656 35.5418 -3.72211 25.871 1.82583 17.9479C7.19451 10.2818 19.4406 14.7243 18.5832 24.5535C18.4906 25.5991 18.0544 26.3908 17.8781 27.3737L34.1186 40.0381C34.4204 40.0919 35.5885 38.6997 35.9619 38.4099C40.7122 34.7411 47.1086 34.3975 52.4176 37.1103L64.7533 19.7733C64.5232 18.7187 63.5463 17.8643 63.0384 16.7798C59.773 9.82168 63.9825 1.0113 71.8578 0.0672206C72.6166 -0.0224069 74.4151 -0.0224069 75.177 0.0672206L75.1799 0.0731954ZM72.5987 5.0057C64.8907 5.89002 64.8668 17.3235 72.3985 18.3572C82.4696 19.7405 82.6698 3.8495 72.5987 5.0057ZM8.58075 19.0443C3.52277 19.7733 3.81556 27.8129 9.34259 27.8876C15.4641 27.9742 15.2102 18.0883 8.58075 19.0443ZM37.9696 43.0496C28.8156 52.1976 42.0865 66.3408 51.7603 57.9038C62.2497 48.7588 47.6075 33.4176 37.9696 43.0496ZM80.9639 52.6098C77.1577 48.8037 70.9047 53.9901 74.203 58.4864C77.8329 63.4398 85.4483 57.0912 80.9639 52.6098ZM17.5525 78.9155C14.529 79.3846 11.891 82.4409 11.5743 85.4225C10.7258 93.3575 21.2481 96.8799 25.2963 90.3609C28.8336 84.6606 24.152 77.8908 17.5525 78.9155ZM70.8211 83.8211C63.2804 83.9078 63.3402 95.8939 71.7621 95.0544C78.3796 94.3972 78.048 83.7375 70.8211 83.8211Z" fill="#111111" />
                             </svg>
 
-                            <h4 className='font-semibold'>Network Infrastructure</h4>
+                            <h3 className='font-semibold'>Network Infrastructure</h3>
                             <p className='leading-looser max-w-[45ch]'>Our expert IT specialist will help you with critical decisions including network design service.</p>
                             <Link className='hover:font-semibold text-primary flex items-center gap-1' href="/solutions/network-infrastructure">
                                 Explore
@@ -81,7 +81,7 @@ export default function Solutions() {
                             </svg>
 
 
-                            <h4 className='font-semibold'>Cloud Solutions</h4>
+                            <h3 className='font-semibold'>Cloud Solutions</h3>
                             <p className='leading-looser max-w-[45ch]'>We offer a range of cloud solutions designed to give your business a competitive edge, including Dynamics 365, SharePoint, Office 365, and more.</p>
                             <Link className='hover:font-semibold text-primary flex items-center gap-1' href="/solutions/cloud-solutions">
                                 Explore
@@ -99,7 +99,7 @@ export default function Solutions() {
 
 
 
-                            <h4 className='font-semibold'>Power Platform</h4>
+                            <h3 className='font-semibold'>Power Platform</h3>
                             <p className='leading-looser max-w-[45ch]'>A toolset that enables businesses to analyze data, automate processes, build apps, and create virtual agents.</p>
                             <Link className='hover:font-semibold text-primary flex items-center gap-1' href="/solutions/power-platform">
                                 Explore

@@ -27,11 +27,11 @@ export default function Cloud() {
             <section className='relative min-h-[90vh] md:min-h-screen w-full '>
                 <div className='flex w-11/12 min-h-[90vh] md:min-h-screen mx-auto pb-8'>
                     <div className="flex flex-col self-end">
-                        <h2 className='text-white text-md z-40'>
+                        <span className='text-white text-md z-40 block'>
                             <SlidingText>
                                 Cloud Solutions
                             </SlidingText>
-                        </h2>
+                        </span>
                         <h1 className='z-40 tracking-xtra leading-xtra text-white text-2xl md:text-4xl md:max-w-[21ch]'>
                             <SlidingText>Professional cloud advisory and assessment services</SlidingText>
                         </h1>
@@ -44,9 +44,9 @@ export default function Cloud() {
             <section className='py-40 min-h-max w-full'>
                 <div className='w-11/12 mx-auto'>
                     <div className='flex flex-col gap-8 justify-center items-center'>
-                        <h3 className='text-2xl md:text-3xl text-header leading-tightest tracking-xtra text-center max-w-[20ch]'>
+                        <h2 className='text-2xl md:text-3xl text-header leading-tightest tracking-xtra text-center max-w-[20ch]'>
                             Give undivided attention to the things that matter
-                        </h3>
+                        </h2>
                         <p className='max-w-[50ch] text-center text-base'>
                             Cloud solutions designed to give your business a competitive edge by allowing your organization to scale, maintain flexibility and devoting time to business operations instead iof IT infrastructures
                         </p>
@@ -57,7 +57,7 @@ export default function Cloud() {
             <section className='min-h-max w-full'>
                 <div className='w-11/12 mx-auto gap-4 flex flex-col'>
 
-                    <h4 className='text-md font-geist text-header'>Benefits</h4>
+                    <h3 className='text-md font-geist text-header'>Benefits</h3>
 
                     <motion.div className='flex flex-col w-full' initial="initial" whileInView="inView" viewport={{ once: true, margin: "0px 0px -20% 0px" }} transition={{ staggerChildren: "0.3", ease: "linear" }}>
                         <div className='md:border-border md:border-y'>
@@ -68,7 +68,7 @@ export default function Cloud() {
                                     <path d="M59.054 13.1509C60.334 13.3294 61.759 14.5846 62.214 15.8502C62.674 17.1264 62.679 20.3351 62.139 21.585C60.704 24.9093 57.164 23.9587 54.364 24.0953L54.169 24.0007C53.814 20.2353 52.859 16.5539 51.314 13.1509H59.059H59.054Z" fill="#D01B22" />
                                     <path d="M52.2189 37.2138C53.4339 33.7162 54.1539 30.0191 54.1689 26.2747H59.0489C60.2039 26.2747 61.8089 27.8554 62.2089 28.974C62.7089 30.3604 62.6789 33.6689 62.0039 34.9871C61.5589 35.8641 60.0139 37.2138 59.0489 37.2138H52.2139H52.2189Z" fill="#D01B22" />
                                 </svg>
-                                <h4 className='md:col-start-3 lg:col-start-4  col-end-7'>Cost Effective</h4>
+                                <h3 className='md:col-start-3 lg:col-start-4  col-end-7'>Cost Effective</h3>
                                 <p className='md:col-start-7 text-body lg:col-start-8 col-end-13 max-w-[35ch] md:max-w-full'>Users only pay for the resources  used, and cloud providers can manage hardware and software for a montly fee</p>
 
                             </motion.div>
@@ -82,7 +82,7 @@ export default function Cloud() {
                                     <path d="M39.0096 0.0485686C44.2887 0.521136 49.0529 5.38858 49.8078 10.8546C50.3977 15.0972 49.0879 18.6047 46.4133 21.6869C43.5138 25.0316 39.6645 29.0905 36.475 32.1201C31.0709 37.2606 23.0523 37.0559 18.508 30.8285C18.3181 30.5659 17.6882 29.7941 17.8131 29.5105C19.2629 28.2188 20.1828 26.1448 22.3874 26.4493C23.4922 26.6016 24.1721 27.678 25.0719 28.2346C27.1316 29.521 29.7011 29.3267 31.5958 27.8145L42.3991 16.4467C46.3934 10.5921 39.4595 3.64008 34.0904 8.12947L27.6415 14.8609C25.6219 14.0156 23.4072 13.5587 21.2226 13.6428C20.8426 13.6585 20.3927 13.7478 19.9828 13.774C19.8728 13.7793 19.7928 13.9841 19.8128 13.7005C22.8123 10.6866 25.6068 7.43112 28.6263 4.4382C30.911 2.17512 33.2906 0.342611 36.57 0.0433187C37.2199 -0.0144396 38.3547 -0.0144396 39.0046 0.0433187L39.0096 0.0485686Z" fill="#D01B22" />
                                 </svg>
 
-                                <h4 className='md:col-start-3 lg:col-start-4 col-end-7'>Accessibility</h4>
+                                <h3 className='md:col-start-3 lg:col-start-4 col-end-7'>Accessibility</h3>
                                 <p className='md:col-start-7 text-body lg:col-start-8 col-end-13 max-w-[35ch] md:max-w-full'>Users can access their data from any device with an internet connection</p>
 
                             </motion.div>
@@ -96,7 +96,7 @@ export default function Cloud() {
                                 </svg>
 
 
-                                <h4 className='md:col-start-3 lg:col-start-4  col-end-7'>Collaboration</h4>
+                                <h3 className='md:col-start-3 lg:col-start-4  col-end-7'>Collaboration</h3>
                                 <p className='md:col-start-7 text-body lg:col-start-8 col-end-13 max-w-[35ch] md:max-w-full'>Cloud Storage enables teams to access files and collaborate on work in real time</p>
 
                             </motion.div>
@@ -113,7 +113,7 @@ export default function Cloud() {
 
 
 
-                                <h4 className='md:col-start-3 lg:col-start-4  col-end-7'>Recovery</h4>
+                                <h3 className='md:col-start-3 lg:col-start-4  col-end-7'>Recovery</h3>
                                 <p className='md:col-start-7 text-body lg:col-start-8 col-end-13 max-w-[35ch] md:max-w-full'>Cloud solutions offer backup and recovery features, and users can backup their entire server simultaneously</p>
 
                             </motion.div>

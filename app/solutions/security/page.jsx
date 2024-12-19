@@ -18,11 +18,11 @@ export default function Security() {
             <section className='relative min-h-[90vh] md:min-h-screen w-full '>
                 <div className='flex  w-11/12 min-h-[90vh] md:min-h-screen mx-auto pb-8'>
                     <div className="flex flex-col self-end">
-                        <h2 className='text-white text-md'>
+                        <span className='text-white text-md block'>
                             <SlidingText>
                                 Security
                             </SlidingText>
-                        </h2>
+                        </span>
                         <h1 className='z-40 tracking-xtra leading-xtra text-white text-2xl md:text-4xl md:max-w-[25ch]'>
                             <SlidingText>Stay ahead in the ever-evolving world of ICT and cyber-threats</SlidingText>
                         </h1>

@@ -18,23 +18,23 @@ export default function Network() {
             <section className='relative min-h-[90vh] md:min-h-screen w-full '>
                 <div className='flex w-11/12 min-h-[90vh] md:min-h-screen mx-auto pb-8'>
                     <div className="flex flex-col self-end">
-                        <h2 className='text-white text-md'>
+                        <span className='text-white text-md block'>
                             <SlidingText>
                                 Network Infrastructure
                             </SlidingText>
-                        </h2>
+                        </span>
                         <h1 className='z-40 tracking-xtra leading-xtra text-white text-2xl md:text-4xl md:max-w-[21ch]'>
                             <SlidingText>Ensure your foundations are solid to support your business</SlidingText>
                         </h1>
                     </div>
                 </div>
-                <Image alt='hero image of a hand interacting with a holographic menu' className='-z-10 object-cover object-[73%] md:object-top ' sizes='100vw' priority src={Hero} fill quality={90} />
+                <Image alt='hero image of a hand interacting with a holographic menu' className='-z-10 object-cover object-[73%] md:object-top' placeholder='blur' loading='eager' sizes='100vw' priority={true} src={Hero} fill quality={90} />
                 <div className='top-0 left-0 opacity-[0.2] overlay bg-black absolute w-full min-h-[90vh] md:min-h-screen'></div>
             </section>
 
             <section className='min-h-[50vh] w-full flex justify-center items-center'>
                 <div className='w-11/12 mx-auto min-h-max'>
-                    <p className='mx-auto text-md md:text-xl lg:text-xl font-geist font-semibold tracking-reg text-header leading-reg font-geist max-w-[55ch] text-center'>
+                    <p className='mx-auto text-md md:text-xl lg:text-xl font-medium tracking-tight text-header leading-reg font-geist max-w-[55ch] text-center'>
                    
                             In today&apos;s fast-paced digital landscape, having a robust and reliable IT infrastructure is essential to support your business applications and scale alongside your future growth plans.
                        
@@ -49,9 +49,9 @@ export default function Network() {
                     <div className='flex flex-col mb-16 lg:flex-row justify-evenly gap-16 items-center min-h-max w-full md:w-11/12 lg:w-full mx-auto'>
 
                         <div className='left w-full flex flex-col items-center lg:items-start  lg:w-max'>
-                            <h3 className='font-semibold text-lg self-start  text-left  md:text-2xl lg:text-xl lg:text-left leading-tight md:leading-tightest tracking-tight md:max-w-[20ch] mb-8'>
+                            <h2 className='font-semibold text-lg self-start  text-left  md:text-2xl lg:text-xl lg:text-left leading-tight md:leading-tightest tracking-tight md:max-w-[20ch] mb-8'>
                             Comprehensive IT Infrastructure Solutions
-                            </h3>
+                            </h2>
                             <div className='flex flex-col  md:text-md lg:text-base gap-6 md:max-w-full lg:max-w-[55ch] text-body'>
                                 <p className='leading-looser'>
                                     Our team of expert IT specialists is dedicated to guiding you through the critical decisions necessary to establish and maintain an optimized network infrastructure. This includes comprehensive network design services tailored to your specific needs, ensuring alignment with your operational goals and technical requirements.
