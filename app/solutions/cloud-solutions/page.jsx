@@ -54,7 +54,7 @@ export default function Cloud() {
                 </div>
             </section>
 
-            <section className='min-h-max w-full'>
+            <section className='min-h-max my-8 w-full'>
                 <div className='w-11/12 mx-auto gap-4 flex flex-col'>
 
                     <h3 className='text-md font-geist text-header'>Benefits</h3>
@@ -128,7 +128,7 @@ export default function Cloud() {
 
             </section>
             <section className='min-h-[300vh] w-full lg:py-16'>
-                <div className='cloud-flex w-11/12 mx-auto sticky top-0  h-screen gap-8 lg:gap-0 flex justify-center flex-col lg:flex-row'>
+                <div className='cloud-flex w-11/12 mx-auto sticky top-0  min-h-screen gap-8 lg:gap-0 flex justify-center flex-col lg:flex-row'>
                     <div className='order-2 lg:order-1 relative flex cloud-text justify-center flex-col lg:w-1/2 gap-4'>
                         <h3 className={!isThree && !isFour && !isTwo ? 'act relative text-lg md:text-2xl lg:text-xl font-semibold' : ' absolute text-lg md:text-2xl lg:text-xl font-semibold opacity-0 '}>Dynamic 365</h3>
                         <p className={!isThree && !isFour && !isTwo ? 'act relative max-w-[50ch] md:text-md lg:text-base leading-looser' : 'md:text-md lg:text-base absolute max-w-[50ch] leading-looser opacity-0 ' } >Microsoft Dynamics 365 is a suite of cloud-based ERP and customer related solutions. In addition to traditional ERP and CRM, other applications are also included the framework. It is a game-changer for businesses seeking to streamline their operations and enhance customer engagement.  Benefits of 365 include comprehensive integration, flexibility, and advanced analytics </p>

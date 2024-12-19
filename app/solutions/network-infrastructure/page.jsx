@@ -32,7 +32,7 @@ export default function Network() {
                 <div className='top-0 left-0 opacity-[0.2] overlay bg-black absolute w-full min-h-[90vh] md:min-h-screen'></div>
             </section>
 
-            <section className='min-h-[50vh] w-full flex justify-center items-center'>
+            <section className='min-h-[50vh] w-full flex justify-center items-center my-24'>
                 <div className='w-11/12 mx-auto min-h-max'>
                     <p className='mx-auto text-md md:text-xl lg:text-xl font-medium tracking-tight text-header leading-reg font-geist max-w-[55ch] text-center'>
                    
